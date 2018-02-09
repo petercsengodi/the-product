@@ -1,0 +1,4 @@
+alias cdproduct='cd [...]'
+alias deployServer='cd [...]/server;mvn appengine:deploy -Dapp.deploy.project=[...] -Dapp.deploy.version=1 -Dmaven.test.skip=true'
+
+
