@@ -7,7 +7,7 @@
 		<version>1.0.0</version>
 	</parent>
 	<artifactId>the-product-core</artifactId>
-	<name>Core Library</name>
+	<name>CoreLibrary</name>
 	<version>1.0.0</version>
 
 	<properties>
