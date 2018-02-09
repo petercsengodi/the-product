@@ -15,6 +15,7 @@ public class MessageSchemaParserTest {
 		System.out.println(definition);
 
 		MessageObjectSchema schema = MessageSchemaParser.parse(definition);
+		System.out.println(schema.toString());
 	}
 
 }

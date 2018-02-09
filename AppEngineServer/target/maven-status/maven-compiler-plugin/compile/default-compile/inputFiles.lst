@@ -1,4 +1,4 @@
-/home/csega/Documents/Projects/the-product/server/src/main/java/hu/csega/the/product/server/HelloWorldServlet.java
-/home/csega/Documents/Projects/the-product/server/src/main/java/hu/csega/the/product/server/TheProductServletContextListener.java
-/home/csega/Documents/Projects/the-product/server/src/main/java/hu/csega/the/product/server/TheProductServletModule.java
-/home/csega/Documents/Projects/the-product/server/src/main/java/hu/csega/the/product/server/TheProductBusinessLogicModule.java
+/home/csega/Documents/Projects/the-product/AppEngineServer/src/main/java/hu/csega/the/product/server/TheProductServletContextListener.java
+/home/csega/Documents/Projects/the-product/AppEngineServer/src/main/java/hu/csega/the/product/server/TheProductServletModule.java
+/home/csega/Documents/Projects/the-product/AppEngineServer/src/main/java/hu/csega/the/product/server/TheProductBusinessLogicModule.java
+/home/csega/Documents/Projects/the-product/AppEngineServer/src/main/java/hu/csega/the/product/server/HelloWorldServlet.java
