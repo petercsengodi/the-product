@@ -3,8 +3,19 @@ package hu.csega.the.product.library;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.nio.charset.Charset;
+
+import com.google.common.base.Charsets;
 
 public class Files {
+
+	public static String readAllString(String absolutePath) {
+		return readAllString(absolutePath, Charsets.UTF_8);
+	}
+
+	public static String readAllString(String absolutePath, Charset charset) {
+		return new String(readAllBytes(absolutePath), charset);
+	}
 
 	public static byte[] readAllBytes(String absolutePath) {
 		File file = new File(absolutePath);
@@ -24,5 +35,5 @@ public class Files {
 
 		return bytes;
 	}
-	
+
 }
